@@ -96,3 +96,36 @@ footer{
         display: inline;
     }
 }
+
+.vivid-tangerine {
+    background-color: #f9ab84;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    opacity: 0.85;
+    text-align: center;
+    font-size: 75px;
+}
+
+.vivid-tangerine-b {
+    background-color: #f9ab84;
+    opacity: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.mantis {
+    background-color: #6abf67;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    opacity: 0.85;
+    text-align: center;
+    font-size: 75px;
+}
+
+.mantis-b {
+    background-color: #6abf67;
+    opacity: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
