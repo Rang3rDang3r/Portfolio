@@ -1,7 +1,7 @@
 /*--- Font Family ---*/
 
-@import url("https://fonts.googleapis.com/css?family=Arimo:100,200,300,400,500,600,700");
-
+@import url("https://fonts.googleapis.com/css?family=Arimo:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Turret+Road:100,200,300,400,500,600,700,800,900");
 /*--- Background Images ---*/
 
 
@@ -13,7 +13,7 @@ h3
 h4
 h5
 h6 {
-    font-family: "Arimo", sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 a {
@@ -27,24 +27,36 @@ nav {
     opacity: 0.85;
 }
 
+.nav-bar {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 .nav-link {
     color: #46344e;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .nav-link a {
     color: rgb(184, 115, 51);
-    font-family: "Arimo", sans-serif;
-    font-weight: bold;
-    font-size: large;
+    font-family: 'Turret Road', cursive;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 .nav-link a:hover {
     color: #ffffff;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
+}
+
+.test {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /*--- Footer ---*/
@@ -73,7 +85,6 @@ footer{
 }
 
 .footer-format li a {
-    font-family: "Arimo", sans-serif;
     color: rgb(184, 115, 51);
     font-size: x-large;
     text-shadow: 1px 1px 2px #000000;
@@ -95,37 +106,4 @@ footer{
     .footer-links {
         display: inline;
     }
-}
-
-.vivid-tangerine {
-    background-color: #f9ab84;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    opacity: 0.85;
-    text-align: center;
-    font-size: 75px;
-}
-
-.vivid-tangerine-b {
-    background-color: #f9ab84;
-    opacity: 1;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
-}
-.mantis {
-    background-color: #6abf67;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    opacity: 0.85;
-    text-align: center;
-    font-size: 75px;
-}
-
-.mantis-b {
-    background-color: #6abf67;
-    opacity: 1;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
 }
