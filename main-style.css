@@ -25,6 +25,9 @@ a {
 nav {
     background-color: #46344e;
     opacity: 0.85;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav-bar {
@@ -35,10 +38,8 @@ nav {
 .nav-link {
     color: #46344e;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav-link a {
@@ -53,10 +54,47 @@ nav {
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
 }
+/*--- About Me ---*/
 
-.test {
-    padding-top: 25px;
-    padding-bottom: 25px;
+.about-me {
+    margin-top: 148px
+}
+
+.about-me-content-container {
+    background-color: #46344e;
+    opacity: 0.85;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*--- Projects ---*/
+
+.projects {
+    
+}
+
+.projects-content-container {
+    
+}
+
+/*--- Skill Set ---*/
+
+.skill-set {
+    
+}
+
+.skill-set-content-container {
+    
+}
+
+/*--- Contact ---*/
+
+.contact {
+    
+}
+
+.contact-content-container {
+    
 }
 
 /*--- Footer ---*/
@@ -105,5 +143,11 @@ footer{
 @media(min-width: 768px) {
     .footer-links {
         display: inline;
+    }
+}
+
+@media(min-width: 768px) {
+    .about-me {
+        margin-top: 74px;
     }
 }
